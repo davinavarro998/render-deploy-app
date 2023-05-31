@@ -1,18 +1,24 @@
 {
-  "name": "render-deploy-app",
+  "name": "nfticket",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "NFTicket",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node api/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "@truffle/hdwallet-provider": "^2.1.11",
     "cors": "^2.8.5",
-    "dotenv": "^16.1.1",
+    "dotenv": "^16.0.3",
     "ethers": "^6.4.0",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
   }
 }
