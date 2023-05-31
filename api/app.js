@@ -5,7 +5,7 @@ require("dotenv").config();
 const { SHOP_ABI, SHOP_ADDRESS } = require("./constants");
 const RPC_URL = process.env.TOMOCHAIN_TESTNET_RPC;
 const PRIVATE_KEY = process.env.PRIVATE_KEY; //(DO NOT USE A PRIVATE KEY WITH REAL MONEY!) Testing accounts
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 

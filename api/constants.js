@@ -1,6 +1,4 @@
-const SHOP_DATA = require("./Shop.json");
 
-//97 = Binance Testnet ID (This is just an example)
 const NETWORK_ID = 89; //change the deployed network id here
 
 const SHOP_ABI = [
